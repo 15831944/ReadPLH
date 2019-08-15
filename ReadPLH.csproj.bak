@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23E18A5B-5B5A-49E9-BB16-4776663E2FE3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>ReadPLH</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\ko\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>.\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.BonusSkins.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Charts.v18.2.Core, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.CodeParser.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v18.2.UI, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dialogs.v18.2.Core, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v18.2.Core, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v18.2.Core, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v18.2.Core, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v18.2.Export, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v18.2.Core, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v18.2.Core, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Spreadsheet.v18.2.Core, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.TreeMap.v18.2.Core, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v18.2.UI, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.2.Extensions, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.2.Wizard, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraDialogs.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v18.2.Core, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v18.2.Extensions, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraSpreadsheet.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeMap.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraWizard.v18.2, Version=18.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\XtraBaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\XtraBaseForm.Designer.cs">
+      <DependentUpon>XtraBaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comm\CCompress.cs" />
+    <Compile Include="Comm\CHeader.cs" />
+    <Compile Include="Comm\CParam.cs" />
+    <Compile Include="Comm\CTransfer.cs" />
+    <Compile Include="Connected Services\wcfHighTop\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Info\CProjectInfo.cs" />
+    <Compile Include="Info\CUserInfo.cs" />
+    <Compile Include="Lib\CFormat.cs" />
+    <Compile Include="Lib\CGetLength.cs" />
+    <Compile Include="Lib\CGetCaption.cs" />
+    <Compile Include="Lib\CGetName.cs" />
+    <Compile Include="Lib\CManHoleCreator.cs" />
+    <Compile Include="Lib\CMaxerSector.cs" />
+    <Compile Include="Lib\CNumberValue.cs" />
+    <Compile Include="Lib\COutSheet1.cs" />
+    <Compile Include="Lib\CPipetools.cs" />
+    <Compile Include="Lib\CPLD.cs" />
+    <Compile Include="Lib\CPldData.cs" />
+    <Compile Include="Lib\CPlhData.cs" />
+    <Compile Include="Lib\CPLH.cs" />
+    <Compile Include="Lib\CProjectData.cs" />
+    <Compile Include="Lib\CRptManHole.cs" />
+    <Compile Include="Lib\CReport1Dat.cs" />
+    <Compile Include="Lib\CSectorCreator.cs" />
+    <Compile Include="Lib\CStringValue.cs" />
+    <Compile Include="Lib\CUtil.cs" />
+    <Compile Include="Lib\enum\CComEnum.cs" />
+    <Compile Include="LogIn\frmLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn\frmLogIn.Designer.cs">
+      <DependentUpon>frmLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\XtraMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\XtraMain.Designer.cs">
+      <DependentUpon>XtraMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\CDataInfo1.cs" />
+    <Compile Include="popup\popupDataInfo1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\popupDataInfo1.Designer.cs">
+      <DependentUpon>popupDataInfo1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraItemDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraItemDlg.Designer.cs">
+      <DependentUpon>XtraItemDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraManhole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraManhole.Designer.cs">
+      <DependentUpon>XtraManhole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraMngrCd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraMngrCd.Designer.cs">
+      <DependentUpon>XtraMngrCd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraMngrGb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraMngrGb.Designer.cs">
+      <DependentUpon>XtraMngrGb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraMngrTp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraMngrTp.Designer.cs">
+      <DependentUpon>XtraMngrTp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraNewProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraNewProject.Designer.cs">
+      <DependentUpon>XtraNewProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraPLHFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraPLHFile.Designer.cs">
+      <DependentUpon>XtraPLHFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraQryProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraQryProject.Designer.cs">
+      <DependentUpon>XtraQryProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraQrySection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraQrySection.Designer.cs">
+      <DependentUpon>XtraQrySection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraQrySectionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraQrySectionList.Designer.cs">
+      <DependentUpon>XtraQrySectionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraSectionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraSectionList.Designer.cs">
+      <DependentUpon>XtraSectionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraSectorCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraSectorCreator.Designer.cs">
+      <DependentUpon>XtraSectorCreator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraSectorInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraSectorInfo.Designer.cs">
+      <DependentUpon>XtraSectorInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup\XtraUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup\XtraUserInfo.Designer.cs">
+      <DependentUpon>XtraUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup_info\xtraAddNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup_info\xtraAddNode.Designer.cs">
+      <DependentUpon>xtraAddNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen\CfrmExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen\CfrmExcel.Designer.cs">
+      <DependentUpon>CfrmExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen\CReadPLD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen\CReadPLD.Designer.cs">
+      <DependentUpon>CReadPLD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen\CReport1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen\CReport1.Designer.cs">
+      <DependentUpon>CReport1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen\frmNationalMarket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen\frmNationalMarket.Designer.cs">
+      <DependentUpon>frmNationalMarket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen\frmPLHBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen\frmPLHBase.Designer.cs">
+      <DependentUpon>frmPLHBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen\LoadPipeTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen\LoadPipeTools.Designer.cs">
+      <DependentUpon>LoadPipeTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen\ReadPLH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen\ReadPLH.Designer.cs">
+      <DependentUpon>ReadPLH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screen\XtraPLH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen\XtraPLH.Designer.cs">
+      <DependentUpon>XtraPLH.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Base\XtraBaseForm.resx">
+      <DependentUpon>XtraBaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn\frmLogIn.resx">
+      <DependentUpon>frmLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\XtraMain.resx">
+      <DependentUpon>XtraMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\popupDataInfo1.resx">
+      <DependentUpon>popupDataInfo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraItemDlg.resx">
+      <DependentUpon>XtraItemDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraManhole.resx">
+      <DependentUpon>XtraManhole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraMngrCd.resx">
+      <DependentUpon>XtraMngrCd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraMngrGb.resx">
+      <DependentUpon>XtraMngrGb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraMngrTp.resx">
+      <DependentUpon>XtraMngrTp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraNewProject.resx">
+      <DependentUpon>XtraNewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraPLHFile.resx">
+      <DependentUpon>XtraPLHFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraQryProject.resx">
+      <DependentUpon>XtraQryProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraQrySection.resx">
+      <DependentUpon>XtraQrySection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraQrySectionList.resx">
+      <DependentUpon>XtraQrySectionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraSectionList.resx">
+      <DependentUpon>XtraSectionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraSectorCreator.resx">
+      <DependentUpon>XtraSectorCreator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraSectorInfo.resx">
+      <DependentUpon>XtraSectorInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup\XtraUserInfo.resx">
+      <DependentUpon>XtraUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup_info\xtraAddNode.resx">
+      <DependentUpon>xtraAddNode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen\CfrmExcel.resx">
+      <DependentUpon>CfrmExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen\CReadPLD.resx">
+      <DependentUpon>CReadPLD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen\CReport1.resx">
+      <DependentUpon>CReport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen\frmNationalMarket.resx">
+      <DependentUpon>frmNationalMarket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen\frmPLHBase.resx">
+      <DependentUpon>frmPLHBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen\LoadPipeTools.resx">
+      <DependentUpon>LoadPipeTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen\ReadPLH.resx">
+      <DependentUpon>ReadPLH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Screen\XtraPLH.resx">
+      <DependentUpon>XtraPLH.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Connected Services\wcfHighTop\service.wsdl" />
+    <None Include="Connected Services\wcfHighTop\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\wcfHighTop\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\wcfHighTop\WcfHighTop.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\wcfHighTop\WindowsFormsApp1.wcfHighTop.CompositeType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Data\SANGH31.LSP" />
+    <None Include="Data\바탕.DWG" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Excel_17559.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\wcfHighTop\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\wcfHighTop\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\wcfHighTop\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\wcfHighTop\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,1918 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="OptionsSelection" isnull="true" iskey="true">
+    <property name="MultiSelectMode">RowSelect</property>
+    <property name="ShowCheckBoxSelectorInColumnHeader">Default</property>
+    <property name="ShowCheckBoxSelectorInGroupRow">Default</property>
+    <property name="ShowCheckBoxSelectorChangesSelectionNavigation">Default</property>
+    <property name="ShowCheckBoxSelectorInPrintExport">Default</property>
+    <property name="CheckBoxSelectorColumnWidth">0</property>
+    <property name="ResetSelectionClickOutsideCheckboxSelector">false</property>
+    <property name="MultiSelect">true</property>
+  </property>
+  <property name="OptionsNavigation" isnull="true" iskey="true">
+    <property name="UseAdvHorzNavigation">true</property>
+    <property name="UseAdvVertNavigation">true</property>
+    <property name="UseOfficePageNavigation">true</property>
+    <property name="AutoFocusNewRow">false</property>
+    <property name="AutoMoveRowFocus">true</property>
+    <property name="EnterMoveNextColumn">false</property>
+    <property name="UseTabKey">true</property>
+  </property>
+  <property name="Columns" iskey="true" value="51">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="VisibleIndex">0</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn1</property>
+      <property name="Caption">관로번호</property>
+      <property name="FieldName">LINENAME</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">120</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="VisibleIndex">1</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn2</property>
+      <property name="Caption">측점</property>
+      <property name="FieldName">NO.</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">206</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="VisibleIndex">2</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn3</property>
+      <property name="Caption">m</property>
+      <property name="FieldName">dist2</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="VisibleIndex">3</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn4</property>
+      <property name="Caption">m</property>
+      <property name="FieldName">dist</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="VisibleIndex">4</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn5</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="VisibleIndex">5</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn6</property>
+      <property name="Caption">m³</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="VisibleIndex">6</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn7</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="VisibleIndex">7</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn8</property>
+      <property name="Caption">m³</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="VisibleIndex">8</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn9</property>
+      <property name="Caption">m²</property>
+      <property name="FieldName">area2</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="VisibleIndex">9</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn10</property>
+      <property name="Caption">m³</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="VisibleIndex">10</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn11</property>
+      <property name="Caption">m²</property>
+      <property name="FieldName">area3</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="VisibleIndex">11</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn12</property>
+      <property name="Caption">m³</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="VisibleIndex">12</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn13</property>
+      <property name="Caption">m²</property>
+      <property name="FieldName">area5</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="VisibleIndex">13</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn14</property>
+      <property name="Caption">m³</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="VisibleIndex">14</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn15</property>
+      <property name="Caption">m</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="VisibleIndex">15</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn16</property>
+      <property name="Caption">m</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="VisibleIndex">16</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn17</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="VisibleIndex">17</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn18</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="VisibleIndex">18</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn19</property>
+      <property name="Caption">m³</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="VisibleIndex">19</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn20</property>
+      <property name="Caption">m</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="VisibleIndex">20</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn21</property>
+      <property name="Caption">m</property>
+      <property name="FieldName">area7</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="VisibleIndex">21</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn22</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item23" isnull="true" iskey="true">
+      <property name="VisibleIndex">22</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn23</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item24" isnull="true" iskey="true">
+      <property name="VisibleIndex">23</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn24</property>
+      <property name="Caption">m³</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item25" isnull="true" iskey="true">
+      <property name="VisibleIndex">24</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn25</property>
+      <property name="Caption">m</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item26" isnull="true" iskey="true">
+      <property name="VisibleIndex">25</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn26</property>
+      <property name="Caption">m</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item27" isnull="true" iskey="true">
+      <property name="VisibleIndex">26</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn27</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item28" isnull="true" iskey="true">
+      <property name="VisibleIndex">27</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn28</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item29" isnull="true" iskey="true">
+      <property name="VisibleIndex">28</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn29</property>
+      <property name="Caption">m³</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item30" isnull="true" iskey="true">
+      <property name="VisibleIndex">29</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn30</property>
+      <property name="Caption">m</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item31" isnull="true" iskey="true">
+      <property name="VisibleIndex">30</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn31</property>
+      <property name="Caption">m</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item32" isnull="true" iskey="true">
+      <property name="VisibleIndex">31</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn32</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item33" isnull="true" iskey="true">
+      <property name="VisibleIndex">32</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn33</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item34" isnull="true" iskey="true">
+      <property name="VisibleIndex">33</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn34</property>
+      <property name="Caption">m³</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item35" isnull="true" iskey="true">
+      <property name="VisibleIndex">34</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn35</property>
+      <property name="Caption">m</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item36" isnull="true" iskey="true">
+      <property name="VisibleIndex">35</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn36</property>
+      <property name="Caption">m</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item37" isnull="true" iskey="true">
+      <property name="VisibleIndex">36</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn37</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item38" isnull="true" iskey="true">
+      <property name="VisibleIndex">37</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn38</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item39" isnull="true" iskey="true">
+      <property name="VisibleIndex">38</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn39</property>
+      <property name="Caption">m³</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item40" isnull="true" iskey="true">
+      <property name="VisibleIndex">39</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn40</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item41" isnull="true" iskey="true">
+      <property name="VisibleIndex">40</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn41</property>
+      <property name="Caption">m³</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item42" isnull="true" iskey="true">
+      <property name="VisibleIndex">41</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn42</property>
+      <property name="Caption">m</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item43" isnull="true" iskey="true">
+      <property name="VisibleIndex">42</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn43</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item44" isnull="true" iskey="true">
+      <property name="VisibleIndex">43</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn44</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item45" isnull="true" iskey="true">
+      <property name="VisibleIndex">44</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn45</property>
+      <property name="Caption">m³</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item46" isnull="true" iskey="true">
+      <property name="VisibleIndex">45</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn46</property>
+      <property name="Caption">m</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item47" isnull="true" iskey="true">
+      <property name="VisibleIndex">46</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn47</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item48" isnull="true" iskey="true">
+      <property name="VisibleIndex">47</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn48</property>
+      <property name="Caption">m</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item49" isnull="true" iskey="true">
+      <property name="VisibleIndex">48</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn49</property>
+      <property name="Caption">m²</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item50" isnull="true" iskey="true">
+      <property name="VisibleIndex">49</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn50</property>
+      <property name="Caption">장비</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item51" isnull="true" iskey="true">
+      <property name="VisibleIndex">50</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn51</property>
+      <property name="Caption">비고</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+      </property>
+    </property>
+  </property>
+  <property name="MinBandPanelRowCount">1</property>
+  <property name="BandPanelRowHeight">-1</property>
+  <property name="OptionsBehavior" isnull="true" iskey="true">
+    <property name="AllowAddRows">True</property>
+  </property>
+  <property name="FixedLineWidth">2</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="RowHeight">-1</property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="GroupFormat">{0}: [#image]{1} {2}</property>
+  <property name="ChildGridLevelName" />
+  <property name="VertScrollTipFieldName" />
+  <property name="PreviewFieldName" />
+  <property name="GroupPanelText" />
+  <property name="NewItemRowText" />
+  <property name="LevelIndent">-1</property>
+  <property name="PreviewIndent">-1</property>
+  <property name="PreviewLineCount">-1</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="FocusRectStyle">CellFocus</property>
+  <property name="HorzScrollStep">0</property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="ViewCaption" />
+  <property name="BorderStyle">Default</property>
+  <property name="SynchronizeClones">true</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="Name">adView1</property>
+  <property name="DetailHeight">350</property>
+  <property name="Tag" isnull="true" />
+  <property name="Bands" iskey="true" value="15">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Fixed">Left</property>
+      <property name="Width">326</property>
+      <property name="Columns" iskey="true" value="2">
+        <property name="Item1">bandedGridColumn1</property>
+        <property name="Item2">bandedGridColumn2</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Caption">구분</property>
+      <property name="Name">gridBand3</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">150</property>
+      <property name="Columns" iskey="true" value="0" />
+      <property name="Children" iskey="true" value="2">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">75</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="1">
+            <property name="Item1">bandedGridColumn3</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">누가거리</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand10</property>
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">75</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="1">
+            <property name="Item1">bandedGridColumn4</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">거리</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand2</property>
+        </property>
+      </property>
+      <property name="Caption">거리</property>
+      <property name="Name">gridBand11</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">300</property>
+      <property name="Columns" iskey="true" value="0" />
+      <property name="Children" iskey="true" value="2">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn5</property>
+            <property name="Item2">bandedGridColumn6</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">육상</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand34</property>
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn7</property>
+            <property name="Item2">bandedGridColumn8</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">용수</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand35</property>
+        </property>
+      </property>
+      <property name="Caption">터파기(토사)</property>
+      <property name="Name">gridBand33</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">300</property>
+      <property name="Columns" iskey="true" value="0" />
+      <property name="Children" iskey="true" value="2">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn9</property>
+            <property name="Item2">bandedGridColumn10</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">관주위(토사)</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand41</property>
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn11</property>
+            <property name="Item2">bandedGridColumn12</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">관상단(토사)</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand44</property>
+        </property>
+      </property>
+      <property name="Caption">되메우기</property>
+      <property name="Name">gridBand40</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">150</property>
+      <property name="Columns" iskey="true" value="2">
+        <property name="Item1">bandedGridColumn13</property>
+        <property name="Item2">bandedGridColumn14</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Caption">관기초</property>
+      <property name="Name">gridBand47</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">375</property>
+      <property name="Columns" iskey="true" value="0" />
+      <property name="Children" iskey="true" value="3">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">75</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="1">
+            <property name="Item1">bandedGridColumn15</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">절단</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand51</property>
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn16</property>
+            <property name="Item2">bandedGridColumn17</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">깨기 및 복구</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand52</property>
+        </property>
+        <property name="Item3" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn18</property>
+            <property name="Item2">bandedGridColumn19</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">보조기층</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand53</property>
+        </property>
+      </property>
+      <property name="Caption">ASP포장(국도)</property>
+      <property name="Name">gridBand50</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">375</property>
+      <property name="Columns" iskey="true" value="0" />
+      <property name="Children" iskey="true" value="3">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">75</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="1">
+            <property name="Item1">bandedGridColumn20</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">절단</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand60</property>
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn21</property>
+            <property name="Item2">bandedGridColumn22</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">깨기 및 복구</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand61</property>
+        </property>
+        <property name="Item3" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn23</property>
+            <property name="Item2">bandedGridColumn24</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">보조기층</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand62</property>
+        </property>
+      </property>
+      <property name="Caption">ASP 포장</property>
+      <property name="Name">gridBand59</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">375</property>
+      <property name="Columns" iskey="true" value="0" />
+      <property name="Children" iskey="true" value="3">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">75</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="1">
+            <property name="Item1">bandedGridColumn25</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">절단</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand69</property>
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn26</property>
+            <property name="Item2">bandedGridColumn27</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">깨기 및 복구</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand70</property>
+        </property>
+        <property name="Item3" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn28</property>
+            <property name="Item2">bandedGridColumn29</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">보조기층</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand71</property>
+        </property>
+      </property>
+      <property name="Caption">CON'C 포장</property>
+      <property name="Name">gridBand68</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">375</property>
+      <property name="Columns" iskey="true" value="0" />
+      <property name="Children" iskey="true" value="3">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">75</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="1">
+            <property name="Item1">bandedGridColumn30</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">절단</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand5</property>
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn31</property>
+            <property name="Item2">bandedGridColumn32</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">깨기 및 복구</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand7</property>
+        </property>
+        <property name="Item3" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn33</property>
+            <property name="Item2">bandedGridColumn34</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">보조기층</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand13</property>
+        </property>
+      </property>
+      <property name="Caption">ASP+Con'C 포장</property>
+      <property name="Name">gridBand8</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">525</property>
+      <property name="Columns" iskey="true" value="0" />
+      <property name="Children" iskey="true" value="4">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">75</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="1">
+            <property name="Item1">bandedGridColumn35</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">절단</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand18</property>
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn36</property>
+            <property name="Item2">bandedGridColumn37</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">깨기 및 복구</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand20</property>
+        </property>
+        <property name="Item3" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn38</property>
+            <property name="Item2">bandedGridColumn39</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">보조기층</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand23</property>
+        </property>
+        <property name="Item4" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn40</property>
+            <property name="Item2">bandedGridColumn41</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">모레</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand26</property>
+        </property>
+      </property>
+      <property name="Caption">투수콘포장</property>
+      <property name="Name">gridBand16</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">300</property>
+      <property name="Columns" iskey="true" value="0" />
+      <property name="Children" iskey="true" value="2">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn42</property>
+            <property name="Item2">bandedGridColumn43</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">헐기 및 복구</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand30</property>
+        </property>
+        <property name="Item2" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn44</property>
+            <property name="Item2">bandedGridColumn45</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">석분</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand77</property>
+        </property>
+      </property>
+      <property name="Caption">보도블럭포장</property>
+      <property name="Name">gridBand29</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">150</property>
+      <property name="Columns" iskey="true" value="0" />
+      <property name="Children" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn46</property>
+            <property name="Item2">bandedGridColumn47</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">(T=5cm)</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand83</property>
+        </property>
+      </property>
+      <property name="Caption">절삭 후 아스팔트 덧싀우기(ASP)</property>
+      <property name="Name">gridBand80</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">150</property>
+      <property name="Columns" iskey="true" value="0" />
+      <property name="Children" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="AppearanceHeader" isnull="true" iskey="true">
+            <property name="Options" isnull="true" iskey="true">
+              <property name="UseTextOptions">true</property>
+              <property name="UseFont">true</property>
+            </property>
+            <property name="TextOptions" isnull="true" iskey="true">
+              <property name="HAlignment">Center</property>
+            </property>
+            <property name="Font">맑은 고딕, 9pt</property>
+          </property>
+          <property name="ImageAlignment">Near</property>
+          <property name="ImageIndex">-1</property>
+          <property name="Fixed">None</property>
+          <property name="Width">150</property>
+          <property name="AutoFillDown">true</property>
+          <property name="MinWidth">10</property>
+          <property name="Columns" iskey="true" value="2">
+            <property name="Item1">bandedGridColumn48</property>
+            <property name="Item2">bandedGridColumn49</property>
+          </property>
+          <property name="RowCount">1</property>
+          <property name="Visible">true</property>
+          <property name="Children" iskey="true" value="0" />
+          <property name="Caption">(T=5cm)</property>
+          <property name="CustomizationCaption" />
+          <property name="ToolTip" />
+          <property name="Name">gridBand85</property>
+        </property>
+      </property>
+      <property name="Caption">절삭 후 아스팔트 덧싀우기 (A+C)</property>
+      <property name="Name">gridBand84</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">75</property>
+      <property name="Columns" iskey="true" value="1">
+        <property name="Item1">bandedGridColumn50</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Caption">장비</property>
+      <property name="Name">gridBand88</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="Width">75</property>
+      <property name="Columns" iskey="true" value="1">
+        <property name="Item1">bandedGridColumn51</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Caption">비고</property>
+      <property name="Name">gridBand89</property>
+    </property>
+  </property>
+  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="ActiveFilterString" />
+  <property name="FormatRules" iskey="true" value="0" />
+  <property name="FormatConditions" iskey="true" value="0" />
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>

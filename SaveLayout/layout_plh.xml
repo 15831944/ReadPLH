@@ -1,0 +1,1605 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="OptionsSelection" isnull="true" iskey="true">
+    <property name="MultiSelectMode">RowSelect</property>
+    <property name="ShowCheckBoxSelectorInColumnHeader">Default</property>
+    <property name="ShowCheckBoxSelectorInGroupRow">Default</property>
+    <property name="ShowCheckBoxSelectorChangesSelectionNavigation">Default</property>
+    <property name="ShowCheckBoxSelectorInPrintExport">Default</property>
+    <property name="CheckBoxSelectorColumnWidth">0</property>
+    <property name="ResetSelectionClickOutsideCheckboxSelector">false</property>
+    <property name="MultiSelect">true</property>
+  </property>
+  <property name="OptionsNavigation" isnull="true" iskey="true">
+    <property name="UseAdvHorzNavigation">true</property>
+    <property name="UseAdvVertNavigation">true</property>
+    <property name="UseOfficePageNavigation">true</property>
+    <property name="AutoFocusNewRow">false</property>
+    <property name="AutoMoveRowFocus">true</property>
+    <property name="EnterMoveNextColumn">false</property>
+    <property name="UseTabKey">true</property>
+  </property>
+  <property name="Columns" iskey="true" value="51">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="VisibleIndex">0</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn49</property>
+      <property name="Caption">key</property>
+      <property name="FieldName">key</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">39</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="VisibleIndex">1</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn51</property>
+      <property name="Caption">선택</property>
+      <property name="FieldName">check</property>
+      <property name="ColumnEditName">repositoryItemCheckEdit5</property>
+      <property name="Visible">true</property>
+      <property name="Width">54</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="VisibleIndex">2</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn47</property>
+      <property name="Caption">FileName</property>
+      <property name="FieldName">FileName</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">133</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="VisibleIndex">4</property>
+      <property name="Fixed">None</property>
+      <property name="Name">bandedGridColumn2</property>
+      <property name="Caption">구간정보</property>
+      <property name="FieldName">Section</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">90</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="VisibleIndex">3</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn1</property>
+      <property name="Caption">NO.</property>
+      <property name="FieldName">NO.</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">100</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="MinWidth">100</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="VisibleIndex">5</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn45</property>
+      <property name="Caption">+</property>
+      <property name="FieldName">+</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">85</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="VisibleIndex">6</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn2</property>
+      <property name="Caption">거리</property>
+      <property name="FieldName">dist</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN2</property>
+      <property name="Visible">true</property>
+      <property name="Width">114</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="MinWidth">100</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="VisibleIndex">7</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn46</property>
+      <property name="Caption">누가거리</property>
+      <property name="FieldName">dist2</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN2</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="VisibleIndex">8</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn3</property>
+      <property name="Caption">지반고</property>
+      <property name="FieldName">gh</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN2</property>
+      <property name="Visible">true</property>
+      <property name="Width">50</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="VisibleIndex">9</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn4</property>
+      <property name="Caption">관저고</property>
+      <property name="FieldName">INV</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN2</property>
+      <property name="Visible">true</property>
+      <property name="Width">46</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="VisibleIndex">10</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn5</property>
+      <property name="Caption">LINENAME</property>
+      <property name="FieldName">LINENAME</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">68</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="VisibleIndex">11</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn6</property>
+      <property name="Caption">관경</property>
+      <property name="FieldName">DIA</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN2</property>
+      <property name="Visible">true</property>
+      <property name="Width">34</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="VisibleIndex">12</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn7</property>
+      <property name="Caption">BR</property>
+      <property name="FieldName">BR</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN2</property>
+      <property name="Visible">true</property>
+      <property name="Width">24</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="VisibleIndex">13</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn8</property>
+      <property name="Caption">type</property>
+      <property name="FieldName">type</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">33</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="VisibleIndex">14</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn9</property>
+      <property name="Caption">T1</property>
+      <property name="FieldName">T1</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">23</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="VisibleIndex">15</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn10</property>
+      <property name="Caption">터파기 경사</property>
+      <property name="FieldName">SLOPE</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">74</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="VisibleIndex">16</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn11</property>
+      <property name="Caption">관외측폭</property>
+      <property name="FieldName">Bcut</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="VisibleIndex">17</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn12</property>
+      <property name="Caption">관기초두께</property>
+      <property name="FieldName">Hcut</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">70</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="VisibleIndex">18</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn13</property>
+      <property name="Caption">관주위</property>
+      <property name="FieldName">manwork</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">46</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="VisibleIndex">19</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn14</property>
+      <property name="Caption">모래부설</property>
+      <property name="FieldName">sand</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="VisibleIndex">20</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn48</property>
+      <property name="Caption">기초각</property>
+      <property name="FieldName">BaseAngle</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">46</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="VisibleIndex">21</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn15</property>
+      <property name="Caption">콘보호각</property>
+      <property name="FieldName">concA</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item23" isnull="true" iskey="true">
+      <property name="VisibleIndex">22</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn16</property>
+      <property name="Caption">콘보호공</property>
+      <property name="FieldName">concB</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item24" isnull="true" iskey="true">
+      <property name="VisibleIndex">23</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn17</property>
+      <property name="Caption">보도구간</property>
+      <property name="FieldName">humanity</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item25" isnull="true" iskey="true">
+      <property name="VisibleIndex">24</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn18</property>
+      <property name="Caption">콘크리트</property>
+      <property name="FieldName">concrete</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item26" isnull="true" iskey="true">
+      <property name="VisibleIndex">25</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn19</property>
+      <property name="Caption">표층</property>
+      <property name="FieldName">asphalt1</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">34</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item27" isnull="true" iskey="true">
+      <property name="VisibleIndex">26</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn20</property>
+      <property name="Caption">기층</property>
+      <property name="FieldName">asphalt2</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">34</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item28" isnull="true" iskey="true">
+      <property name="VisibleIndex">27</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn21</property>
+      <property name="Caption">보조기층</property>
+      <property name="FieldName">complay</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item29" isnull="true" iskey="true">
+      <property name="VisibleIndex">28</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn22</property>
+      <property name="Caption">혼합기층</property>
+      <property name="FieldName">mixlay</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item30" isnull="true" iskey="true">
+      <property name="VisibleIndex">29</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn23</property>
+      <property name="Caption">mixlay1</property>
+      <property name="FieldName">mixlay1</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">52</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item31" isnull="true" iskey="true">
+      <property name="VisibleIndex">30</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn24</property>
+      <property name="Caption">mixlay2</property>
+      <property name="FieldName">mixlay2</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">52</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item32" isnull="true" iskey="true">
+      <property name="VisibleIndex">31</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn25</property>
+      <property name="Caption">터파기</property>
+      <property name="FieldName">area1</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">56</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item33" isnull="true" iskey="true">
+      <property name="VisibleIndex">32</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn26</property>
+      <property name="Caption">관주위</property>
+      <property name="FieldName">area2</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">46</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item34" isnull="true" iskey="true">
+      <property name="VisibleIndex">33</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn27</property>
+      <property name="Caption">관상단</property>
+      <property name="FieldName">area3</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">46</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item35" isnull="true" iskey="true">
+      <property name="VisibleIndex">34</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn28</property>
+      <property name="Caption">잔토처리</property>
+      <property name="FieldName">area4</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item36" isnull="true" iskey="true">
+      <property name="VisibleIndex">35</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn29</property>
+      <property name="Caption">모래부설</property>
+      <property name="FieldName">area5</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item37" isnull="true" iskey="true">
+      <property name="VisibleIndex">36</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn30</property>
+      <property name="Caption">파취</property>
+      <property name="FieldName">area6</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">34</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item38" isnull="true" iskey="true">
+      <property name="VisibleIndex">37</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn31</property>
+      <property name="Caption">복구</property>
+      <property name="FieldName">area7</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">34</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item39" isnull="true" iskey="true">
+      <property name="VisibleIndex">38</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn32</property>
+      <property name="Caption">보조기층</property>
+      <property name="FieldName">area8</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item40" isnull="true" iskey="true">
+      <property name="VisibleIndex">39</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn33</property>
+      <property name="Caption">혼합기층</property>
+      <property name="FieldName">area9</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">58</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item41" isnull="true" iskey="true">
+      <property name="VisibleIndex">40</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn34</property>
+      <property name="Caption">area10</property>
+      <property name="FieldName">area10</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">46</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item42" isnull="true" iskey="true">
+      <property name="VisibleIndex">41</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn35</property>
+      <property name="Caption">area11</property>
+      <property name="FieldName">area11</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">46</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item43" isnull="true" iskey="true">
+      <property name="VisibleIndex">42</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn36</property>
+      <property name="Caption">T2</property>
+      <property name="FieldName">T2</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">23</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item44" isnull="true" iskey="true">
+      <property name="VisibleIndex">43</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn37</property>
+      <property name="Caption">T3</property>
+      <property name="FieldName">T3</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">23</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item45" isnull="true" iskey="true">
+      <property name="VisibleIndex">44</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn38</property>
+      <property name="Caption">T4</property>
+      <property name="FieldName">T4</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">23</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item46" isnull="true" iskey="true">
+      <property name="VisibleIndex">45</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn39</property>
+      <property name="Caption">B</property>
+      <property name="FieldName">B</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">20</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item47" isnull="true" iskey="true">
+      <property name="VisibleIndex">46</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn40</property>
+      <property name="Caption">H</property>
+      <property name="FieldName">H</property>
+      <property name="ColumnEditName">repositoryItemSpinEditN3</property>
+      <property name="Visible">true</property>
+      <property name="Width">20</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Far</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item48" isnull="true" iskey="true">
+      <property name="VisibleIndex">47</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn41</property>
+      <property name="Caption">DIR</property>
+      <property name="FieldName">DIR</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">29</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item49" isnull="true" iskey="true">
+      <property name="VisibleIndex">48</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn42</property>
+      <property name="Caption">B2</property>
+      <property name="FieldName">B2</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">24</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item50" isnull="true" iskey="true">
+      <property name="VisibleIndex">49</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn44</property>
+      <property name="Caption">INV2</property>
+      <property name="FieldName">INV2</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">37</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+    <property name="Item51" isnull="true" iskey="true">
+      <property name="VisibleIndex">50</property>
+      <property name="Fixed">None</property>
+      <property name="Name">gridColumn43</property>
+      <property name="Caption">DIA2</property>
+      <property name="FieldName">DIA2</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">37</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseFont">true</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+      <property name="AppearanceHeader" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+          <property name="UseFont">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Center</property>
+        </property>
+        <property name="Font">맑은 고딕, 9pt</property>
+      </property>
+    </property>
+  </property>
+  <property name="MinBandPanelRowCount">1</property>
+  <property name="BandPanelRowHeight">-1</property>
+  <property name="OptionsBehavior" isnull="true" iskey="true">
+    <property name="AllowAddRows">True</property>
+  </property>
+  <property name="FixedLineWidth">2</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="RowHeight">-1</property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="GroupFormat">{0}: [#image]{1} {2}</property>
+  <property name="ChildGridLevelName" />
+  <property name="VertScrollTipFieldName" />
+  <property name="PreviewFieldName" />
+  <property name="GroupPanelText" />
+  <property name="NewItemRowText" />
+  <property name="LevelIndent">-1</property>
+  <property name="PreviewIndent">-1</property>
+  <property name="PreviewLineCount">-1</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="FocusRectStyle">CellFocus</property>
+  <property name="HorzScrollStep">0</property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="ViewCaption" />
+  <property name="BorderStyle">Default</property>
+  <property name="SynchronizeClones">true</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="Name">adView1</property>
+  <property name="DetailHeight">350</property>
+  <property name="Tag" isnull="true" />
+  <property name="Bands" iskey="true" value="2">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Fixed">Left</property>
+      <property name="Width">501</property>
+      <property name="Columns" iskey="true" value="6">
+        <property name="Item1">gridColumn49</property>
+        <property name="Item2">gridColumn51</property>
+        <property name="Item3">gridColumn47</property>
+        <property name="Item4">gridColumn1</property>
+        <property name="Item5">bandedGridColumn2</property>
+        <property name="Item6">gridColumn45</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Caption">gridBand3</property>
+      <property name="Name">gridBand3</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Width">2098</property>
+      <property name="MinWidth">70</property>
+      <property name="Columns" iskey="true" value="45">
+        <property name="Item1">gridColumn2</property>
+        <property name="Item2">gridColumn46</property>
+        <property name="Item3">gridColumn3</property>
+        <property name="Item4">gridColumn4</property>
+        <property name="Item5">gridColumn5</property>
+        <property name="Item6">gridColumn6</property>
+        <property name="Item7">gridColumn7</property>
+        <property name="Item8">gridColumn8</property>
+        <property name="Item9">gridColumn9</property>
+        <property name="Item10">gridColumn10</property>
+        <property name="Item11">gridColumn11</property>
+        <property name="Item12">gridColumn12</property>
+        <property name="Item13">gridColumn13</property>
+        <property name="Item14">gridColumn14</property>
+        <property name="Item15">gridColumn48</property>
+        <property name="Item16">gridColumn15</property>
+        <property name="Item17">gridColumn16</property>
+        <property name="Item18">gridColumn17</property>
+        <property name="Item19">gridColumn18</property>
+        <property name="Item20">gridColumn19</property>
+        <property name="Item21">gridColumn20</property>
+        <property name="Item22">gridColumn21</property>
+        <property name="Item23">gridColumn22</property>
+        <property name="Item24">gridColumn23</property>
+        <property name="Item25">gridColumn24</property>
+        <property name="Item26">gridColumn25</property>
+        <property name="Item27">gridColumn26</property>
+        <property name="Item28">gridColumn27</property>
+        <property name="Item29">gridColumn28</property>
+        <property name="Item30">gridColumn29</property>
+        <property name="Item31">gridColumn30</property>
+        <property name="Item32">gridColumn31</property>
+        <property name="Item33">gridColumn32</property>
+        <property name="Item34">gridColumn33</property>
+        <property name="Item35">gridColumn34</property>
+        <property name="Item36">gridColumn35</property>
+        <property name="Item37">gridColumn36</property>
+        <property name="Item38">gridColumn37</property>
+        <property name="Item39">gridColumn38</property>
+        <property name="Item40">gridColumn39</property>
+        <property name="Item41">gridColumn40</property>
+        <property name="Item42">gridColumn41</property>
+        <property name="Item43">gridColumn42</property>
+        <property name="Item44">gridColumn44</property>
+        <property name="Item45">gridColumn43</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Caption">gridBand1</property>
+      <property name="Name">gridBand1</property>
+    </property>
+  </property>
+  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="ActiveFilterString" />
+  <property name="FormatRules" iskey="true" value="0" />
+  <property name="FormatConditions" iskey="true" value="0" />
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>

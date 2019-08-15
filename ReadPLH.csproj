@@ -154,6 +154,7 @@
     <Compile Include="Lib\CGetLength.cs" />
     <Compile Include="Lib\CGetCaption.cs" />
     <Compile Include="Lib\CGetName.cs" />
+    <Compile Include="Lib\CMakeDataTable.cs" />
     <Compile Include="Lib\CManHoleCreator.cs" />
     <Compile Include="Lib\CMaxerSector.cs" />
     <Compile Include="Lib\CNumberValue.cs" />
@@ -168,6 +169,7 @@
     <Compile Include="Lib\CReport1Dat.cs" />
     <Compile Include="Lib\CSectorCreator.cs" />
     <Compile Include="Lib\CStringValue.cs" />
+    <Compile Include="Lib\CTrans.cs" />
     <Compile Include="Lib\CUtil.cs" />
     <Compile Include="Lib\enum\CComEnum.cs" />
     <Compile Include="LogIn\frmLogIn.cs">

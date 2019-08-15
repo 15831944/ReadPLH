@@ -337,6 +337,7 @@
     <Compile Include="Screen\XtraPLH.Designer.cs">
       <DependentUpon>XtraPLH.cs</DependentUpon>
     </Compile>
+    <Compile Include="Type\typePLH.cs" />
     <EmbeddedResource Include="Base\XtraBaseForm.resx">
       <DependentUpon>XtraBaseForm.cs</DependentUpon>
     </EmbeddedResource>

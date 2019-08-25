@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SpanReader.util
+namespace WindowsFormsApp1.Lib
 {
     class CMakeDataTable<T> where T : new()
     {
@@ -54,7 +54,17 @@ namespace SpanReader.util
             {
            
                 object val = item.GetValue(obj);
+
                 DR[item.Name] = val;
+
+                //if (item.Name == "NO")
+                //{
+                //    DR[item.Name] = val.ToString().Trim().Replace(' ', '0');
+                //}
+                //else
+                //{
+                //    DR[item.Name] = val;
+                //}
 
 
 

@@ -20,7 +20,16 @@ public class CTrans<T> where T: struct
         byte[] byteData;
 
         int type_size = Marshal.SizeOf(typeof(T));
+
+        Encoding encode = Encoding.GetEncoding("ks_c_5601-1987");
+        //byteData = encode.GetBytes(streamData);
+        //byteData = Encoding.UTF8.GetBytes(streamData.ToString().PadRight(type_size));
+        //byteData = encode.GetBytes(streamData.ToString().PadRight(type_size));
         byteData = Encoding.UTF8.GetBytes(streamData.ToString().PadRight(type_size));
+
+        string str = Encoding.Default.GetString(byteData);
+
+    
 
         Type objtype;
         objtype = typeof(T);

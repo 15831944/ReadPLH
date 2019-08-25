@@ -56,6 +56,55 @@ namespace WindowsFormsApp1.Comm
         }
 
 
+        /// <summary>
+        /// 복수개의 Insert 문장을 처리할때
+        /// </summary>
+        /// <param name="insert_commands"></param>
+        /// <returns></returns>
+        public int insert(NpgsqlCommand[] insert_commands)
+        {
+            int nRet;
+
+            try
+            {
+                m_Con.Open();
+
+                using (NpgsqlTransaction nTran = m_Con.BeginTransaction())
+                {
+
+                    try
+                    {
+                        foreach (var item in insert_commands)
+                        {
+
+
+                            item.Connection = m_Con;
+                            m_Adt.InsertCommand = item;
+
+                            m_Adt.InsertCommand.ExecuteNonQuery();
+
+                        }
+
+                    }
+                    catch (Exception e)
+                    {
+
+                        nTran.Rollback();
+                        throw;
+                    }
+
+                    nTran.Commit();
+                }
+            }
+            catch (Exception e)
+            {
+                
+                throw;
+            }
+
+            return 0;
+        }
+
         public int Insert()
         {
             int nRet;

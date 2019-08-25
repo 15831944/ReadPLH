@@ -117,6 +117,7 @@ namespace WindowsFormsApp1.Screen
         /// </summary>
         private void SavePLH()
         {
+
             DataTable plh_data;
             try
             {
@@ -129,50 +130,67 @@ namespace WindowsFormsApp1.Screen
                 itemErrCd.Caption = "ERROR";
                 itemErrMsg.Caption = e.Message;
 
-                throw;
+                return;
             }
 
+            Service.CSvcPLH.SavePLH(plh_data);
+
+            //DataTable plh_data;
+            //try
+            //{
+            //    plh_data = (DataTable)gridControl1.DataSource;
+            //    plh_data.TableName = "PlhData";
+
+            //}
+            //catch (Exception e)
+            //{
+            //    itemErrCd.Caption = "ERROR";
+            //    itemErrMsg.Caption = e.Message;
+
+            //    throw;
+            //}
 
 
 
 
 
 
-            CHeader Header = new CHeader(UserInfo.UserID, "A1001A", "XtraPLH", "00000", "");
+
+            //CHeader Header = new CHeader(UserInfo.UserID, "A1001A", "XtraPLH", "00000", "");
 
 
 
-            DataTable Data = new DataTable("PlhInfo");
-            DataColumn colProjectCd = new DataColumn("project_cd", typeof(string));
+            //DataTable Data = new DataTable("PlhInfo");
+            //DataColumn colProjectCd = new DataColumn("project_cd", typeof(string));
 
 
-            Data.Columns.Add(colProjectCd);
+            //Data.Columns.Add(colProjectCd);
 
             
             
-            DataRow Dr = Data.NewRow();
-            Dr["project_cd"] = ProjectInfo.ProjectCD;
+            //DataRow Dr = Data.NewRow();
+            //Dr["project_cd"] = ProjectInfo.ProjectCD;
 
-            Data.Rows.Add(Dr);
+            //Data.Rows.Add(Dr);
 
-            //Project 정보를 담은 ...
-            CParam Param = new CParam(Data);
-
-
-            Param.AddDataTable(plh_data);
+            ////Project 정보를 담은 ...
+            //CParam Param = new CParam(Data);
 
 
-            using (DataSet ds = CTransfer.InsertData(Header, Param.GetDataSet()))
-            {
+            //Param.AddDataTable(plh_data);
 
-                DataTable Dt = ds.Tables["eror_dt"];
-                itemErrCd.Caption = Dt.Rows[0]["err_cd"].ToString();
-                itemErrMsg.Caption = Dt.Rows[0]["err_msg"].ToString();
 
-                DataTable rcvData = ds.Tables["Table"];
-                gridControl1.DataSource = rcvData;
+            //using (DataSet ds = CTransfer.InsertData(Header, Param.GetDataSet()))
+            //{
 
-            }
+            //    DataTable Dt = ds.Tables["eror_dt"];
+            //    itemErrCd.Caption = Dt.Rows[0]["err_cd"].ToString();
+            //    itemErrMsg.Caption = Dt.Rows[0]["err_msg"].ToString();
+
+            //    DataTable rcvData = ds.Tables["Table"];
+            //    gridControl1.DataSource = rcvData;
+
+            //}
         }
 
         /// <summary>
@@ -646,6 +664,66 @@ namespace WindowsFormsApp1.Screen
         private void btnLoadPLH_Click(object sender, EventArgs e)
         {
             LoadPLH();
+
+
+            ///marshal 로 처리 하려 하였으나
+            ///원래 PLH파일의 처리가 잘 못되어 있어 Marshal 처리 불가능
+            //String FileName;
+            //String RLine;
+            //CMakeDataTable<_st_typePLH> MakeTable = new CMakeDataTable<_st_typePLH>();
+
+            //XtraOpenFileDialog Opendlg;
+            //using (Opendlg = new XtraOpenFileDialog() )
+            //{
+            //    Opendlg.Filter = "PLH 파일 (*.PLH)|*.PLH|모든파일(*.*)|*.*";
+            //    Opendlg.Multiselect = true;
+
+            //    if (Opendlg.ShowDialog() == DialogResult.OK)
+            //    {
+            //        foreach (string strFileName in Opendlg.FileNames)
+            //        {
+            //            FileName = Path.GetFileName(strFileName);
+
+            //            //using (StreamReader SR = new StreamReader(strFileName, Encoding.Default, true))
+            //            using (StreamReader SR = new StreamReader(strFileName, Encoding.Default, true))
+            //            {
+
+            //                CTrans<_st_typePLH> Trans_PLH = new CTrans<_st_typePLH>();
+                            
+                            
+
+            //                while ((RLine = SR.ReadLine()) != null)
+            //                {
+            //                    if (RLine.Substring(0, 2) != "NO")
+            //                    {
+            //                        continue;
+            //                    }
+
+            //                    //RLine = RLine.Replace('+', ' ');
+            //                    _st_typePLH st_typePLH  = Trans_PLH.ByteToStruct(RLine);
+            //                    MakeTable.AddData(st_typePLH);
+            //                }
+            //            }
+            //        }
+
+            //        if (MakeTable.DATATABLE != null)
+            //        {
+            //            DataTable dt = MakeTable.DATATABLE;
+            //        }
+
+                    
+
+
+            //    }
+
+            //}
+
+
+
+
+
+
+
         }
 
         private void btnSavePLH_Click_1(object sender, EventArgs e)

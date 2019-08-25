@@ -13,6 +13,7 @@ using WindowsFormsApp1.Comm;
 using WindowsFormsApp1.LogIn;
 using WindowsFormsApp1.Info;
 using WindowsFormsApp1.popup;
+using Npgsql;
 
 namespace WindowsFormsApp1.Main
 {
@@ -51,42 +52,77 @@ namespace WindowsFormsApp1.Main
         public int QyrUserInfo(string strUserId)
         {
 
-            CHeader Header = new CHeader("test", "A0001B", "MAIN", "00000", "");
 
-            DataTable data = new DataTable("custinfo");
+            Cnpgsql npgsql = new Cnpgsql();
 
-            DataColumn colUserId = new DataColumn("user_id", typeof(string));
+            NpgsqlCommand qryCommander = new NpgsqlCommand();
 
-            data.Columns.Add(colUserId);
+            string sql = $" select user_id" +
+                         $"      , user_nm" +
+                         $"  from usr01m00" +
+                         $" where user_id =  :p_user_id ";
 
-            DataRow Dr = data.NewRow();
-            Dr["user_id"] = strUserId;
-
-            data.Rows.Add(Dr);
-
-            CParam Param = new CParam(data);
-            
-            DataSet ds = CTransfer.QryData(Header, Param.GetDataSet());
+            qryCommander.CommandText = sql;
+            qryCommander.Parameters.AddWithValue("p_user_id", strUserId);
 
 
-            DataTable Dt = ds.Tables["eror_dt"];
-            itemErrCd.Caption = Dt.Rows[0]["err_cd"].ToString();
-            itemErrMsg.Caption = Dt.Rows[0]["err_msg"].ToString();
+            try
+            {
+                DataTable dt = npgsql.Select(qryCommander);
 
-            if (Dt.Rows[0]["err_cd"].ToString().PadRight(5, ' ') != "00000")
+                itemUserId.Caption = dt.Rows[0]["user_id"].ToString();
+
+                UserInfo.UserID = dt.Rows[0]["user_id"].ToString();
+                UserInfo.UserName = dt.Rows[0]["user_nm"].ToString();
+
+                return 0;
+
+            }
+            catch (Exception e)
             {
                 return -1;
+                //throw e;
             }
+        
 
-            itemUserId.Caption = ds.Tables["Table"].Rows[0]["user_id"].ToString();
+
+
+            //CHeader Header = new CHeader("test", "A0001B", "MAIN", "00000", "");
+
+            //DataTable data = new DataTable("custinfo");
+
+            //DataColumn colUserId = new DataColumn("user_id", typeof(string));
+
+            //data.Columns.Add(colUserId);
+
+            //DataRow Dr = data.NewRow();
+            //Dr["user_id"] = strUserId;
+
+            //data.Rows.Add(Dr);
+
+            //CParam Param = new CParam(data);
+            
+            //DataSet ds = CTransfer.QryData(Header, Param.GetDataSet());
+
+
+            //DataTable Dt = ds.Tables["eror_dt"];
+            //itemErrCd.Caption = Dt.Rows[0]["err_cd"].ToString();
+            //itemErrMsg.Caption = Dt.Rows[0]["err_msg"].ToString();
+
+            //if (Dt.Rows[0]["err_cd"].ToString().PadRight(5, ' ') != "00000")
+            //{
+            //    return -1;
+            //}
+
+            //itemUserId.Caption = ds.Tables["Table"].Rows[0]["user_id"].ToString();
 
             
 
-            //사용자 정보를 설정한다.
-            UserInfo.UserID = ds.Tables["Table"].Rows[0]["user_id"].ToString();
-            UserInfo.UserName = ds.Tables["Table"].Rows[0]["user_nm"].ToString();
+            ////사용자 정보를 설정한다.
+            //UserInfo.UserID = ds.Tables["Table"].Rows[0]["user_id"].ToString();
+            //UserInfo.UserName = ds.Tables["Table"].Rows[0]["user_nm"].ToString();
 
-            return 0;
+            //return 0;
         }
 
         private void btrnPLH_ItemClick(object sender, ItemClickEventArgs e)

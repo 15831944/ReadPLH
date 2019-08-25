@@ -133,8 +133,9 @@ namespace WindowsFormsApp1.Screen
                 return;
             }
 
-            Service.CSvcPLH.SavePLH(plh_data);
-
+            Service.CSvcPLH.DeletePLH(ProjectInfo);
+            Service.CSvcPLH.SavePLH(ProjectInfo, plh_data);
+                                    
             //DataTable plh_data;
             //try
             //{
@@ -166,8 +167,8 @@ namespace WindowsFormsApp1.Screen
 
             //Data.Columns.Add(colProjectCd);
 
-            
-            
+
+
             //DataRow Dr = Data.NewRow();
             //Dr["project_cd"] = ProjectInfo.ProjectCD;
 

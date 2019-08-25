@@ -56,6 +56,52 @@ namespace WindowsFormsApp1.Comm
         }
 
 
+        public int delete(NpgsqlCommand[] delete_commands)
+        {
+            int nRet;
+
+            try
+            {
+                m_Con.Open();
+
+                using (NpgsqlTransaction nTran = m_Con.BeginTransaction())
+                {
+
+
+                    try
+                    {
+                        foreach (var item in delete_commands)
+                        {
+
+
+                            item.Connection = m_Con;
+                            m_Adt.DeleteCommand = item; ;
+
+                            m_Adt.DeleteCommand.ExecuteNonQuery();
+
+                        }
+
+                    }
+                    catch (Exception e)
+                    {
+
+                        nTran.Rollback();
+                        throw;
+                    }
+
+                    nTran.Commit();
+                }
+            }
+            catch (Exception e)
+            {
+
+                throw;
+            }
+
+            return 0;
+        }
+
+
         /// <summary>
         /// 복수개의 Insert 문장을 처리할때
         /// </summary>
@@ -138,6 +184,48 @@ namespace WindowsFormsApp1.Comm
             }
 
         }
+
+
+
+        public DataTable Select(NpgsqlCommand select_command)
+        {
+            int nRet;
+
+            select_command.Connection = m_Con;
+            m_Adt.SelectCommand = select_command;
+
+
+            try
+            {
+                m_Con.Open();
+
+                DataTable dt = new DataTable();
+
+                nRet = m_Adt.Fill(dt);
+
+
+                if (nRet > 0)
+                {
+                    return dt;
+                }
+                else
+                {
+                    return null;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                exceptionMsg = ex.Message;
+
+                throw;
+            }
+            finally
+            {
+                m_Con.Close();
+            }
+        }
+
 
         public DataTable Select()
         {
